@@ -1,0 +1,86 @@
+.hidden {
+  display: none;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+@font-face {
+  font-family: 'astoria';
+  src: url('../fonts/AstoriaMedium.ttf') format('truetype'),
+  url('../fonts/Ast oriaRoman.ttf') format('truetype'),
+  url('../fonts/zAstoriaBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'aktiv-grotesk', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+h2, h3 {
+  font-family: 'astoria', Helvetica, sans-serif;
+}
+
+#mainHeader {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(227,0,32);
+  background: -moz-radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
+  background: radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e30020",endColorstr="#b00c18",GradientType=1);
+}
+
+#logoCon {
+  width: 200px;
+  height: 200px;
+  margin: 61px 0 29px 88px;
+}
+
+#mainNav {
+  font-size: 36px;
+}
+
+#burgerCon {
+  margin: 213px 88px 29px 0;
+}
+
+#burgerMenu {
+  display: flex;
+}
+
+#mainNav li {
+  margin-left: 40px;
+}
+
+#mainNav li:first-child {
+  margin-left: 0px;
+}
+
+#mainNav a {
+  font-family: 'astoria';
+  text-decoration: none;
+  color: #fff;
+}
+
+#button {
+  display: none;
+  background: url(../images/burger_menu.svg) center no-repeat;
+  border: 0px;
+  width: 20px;
+  height: 20px;
+  transition: all 400ms ease;
+}
