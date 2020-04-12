@@ -1,0 +1,54 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #333333;
+  height: 100%;
+}
+
+#wrapper h2 {
+  text-align: center;
+  font-size: 34px;
+  padding: 20px 0 10px 0;
+}
+
+
+
+	
+
+/*I realized now that i have to reesign the logo to only have shapes 
+so that it will work as an svg*/
+
+#logo {
+  display:block;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: solid 2px #000;
+  background:transparent url(../images/Tucks.png);
+}
+#logo:hover{
+  width: 400px;
+  height: 400px;
+	background:transparent url(../images/Tucks.png) 0 0 no-repeat;
+	
+  animation: env_loop .5s steps(6) infinite;
+  
+  animation-direction: alternate;
+  animation-delay: .5s;
+ 
+
+}
+
+@keyframes env_loop {
+	0%{background-position: 0 0;}
+	100%{background-position: 0 -2400px;}
+}

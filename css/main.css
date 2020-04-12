@@ -37,6 +37,7 @@ h2, h3 {
 #mainHeader {
   display: flex;
   justify-content: space-between;
+  border-bottom: 15px solid rgb(181,135,19);
   background: rgb(227,0,32);
   background: -moz-radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
   background: -webkit-radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
@@ -87,6 +88,11 @@ h2, h3 {
 
 
 /* Start Index */
+#welcomeImg {
+  height: 640px;
+  border-bottom: 15px solid rgb(181,135,19);
+}
+
 #welcomeImg img {
   width: 100%;  
   height: 100%;  
@@ -94,7 +100,7 @@ h2, h3 {
 }
 
 #beer-parallax {
-  height: 100%;
+  height: 740px;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -106,18 +112,92 @@ h2, h3 {
 }
 
 .overlay {
-  
   top: 50%;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.7;
+  opacity: 0.96;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .textBox {
-  
-  width: 250px;
-  height: 200px;
-  background-color: #B40000;
-  
+  width: 70%;
+  background-color: rgb(181,135,19);
+  margin: 0 auto;
+}
+
+.textBox h2 {
+  font-family: 'astoria', Helvetica, sans-serif;
+  font-size: 36px;
+  color: #fff;
+  padding: 50px 0 15px 0;
+}
+
+.textBox p {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  padding: 0 25px 50px 25px;
+}
+
+/* Footer */
+#footerImg {
+  height: 340px;
+  background: rgb(227,0,32);
+  background: -moz-radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
+  background: radial-gradient(circle, rgba(227,0,32,1) 0%, rgba(176,12,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e30020",endColorstr="#b00c18",GradientType=1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#footerMsg {
+  width: fit-content;
+  margin: 0 auto;
+  line-height: 170px;
+  letter-spacing: 5px;
+  padding-top: 50px;
+}
+
+#footerMsg p{
+  color:#fff ;
+  font-size: 36px;
+  font-family: 'astoria', Helvetica, sans-serif;
+}
+
+#socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+#socialMedia li {
+  display: inline;
+}
+
+#footerPopups {
+  height: 125px;
+  line-height: 125px;
+  background: rgb(181,135,19);
+}
+
+#footerMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+#footerMenu li {
+  display: inline;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  color: #fff;
+  cursor: pointer;
 }
