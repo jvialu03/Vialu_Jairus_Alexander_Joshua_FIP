@@ -1,0 +1,51 @@
+<batchrender>
+  <environmentinfo>
+    <machineinfo>
+      <machinename>ats-kml11-dm04</machinename>
+      <username>j_alexander65807</username>
+      <processortype>GenuineIntel, stepping 9, model 14, instruction family 6</processortype>
+      <processorname>Intel Core i5-7400 CPU</processorname>
+      <processornumber>4</processornumber>
+      <ostype>OS X 64 BIT</ostype>
+      <osversion>OS X: Version 10.14.6 (Build 18G1012)</osversion>
+      <oglvendorname>ATI Technologies Inc.</oglvendorname>
+      <oglrendername>AMD Radeon Pro 555 OpenGL Engine</oglrendername>
+      <oglversion>4.1 ATI-2.11.21</oglversion>
+    </machineinfo>
+    <c4dinfo>
+      <c4dversion>20059</c4dversion>
+      <c4dplugins>houdiniconfig addons advanced render alembic archigrass bitmapfilter bpexchange browser ca ca2 cadexchange clothilde collada14 collada15 colorchoosergui compositing dwg dwgobjects dynamics exchanges expressiontag fbx gpurenderer hair i_skp iges io_obj licenseserver metrics mkmodeler mocca model mograph motioncam motiontracker nbp newman nodeeditor objects onlinehelp onlineupdater python relaxuv sculpt sculptbrushes shader sketch sky sla spacemouse substance teamrender texturemanager thinking particles tpoperators volumes walkthrough xpressocore xtensions </c4dplugins>
+    </c4dinfo>
+  </environmentinfo>
+  <fileinfo>
+    <filename>beerGlasses.c4d</filename>
+    <filepath>/Users/j_alexander65807/Downloads/tucks_motDes</filepath>
+    <renderdatainfo>
+      <rendersettings>My Render Setting</rendersettings>
+      <take>Main</take>
+      <camera>Default Camera</camera>
+      <width>1280</width>
+      <height>720</height>
+      <filmaspect>1.778</filmaspect>
+      <pixelaspect>1</pixelaspect>
+      <fps>30</fps>
+      <from>0</from>
+      <to>0</to>
+      <steps>1</steps>
+      <saveinfo>
+        <imagepath>/Users/j_alexander65807/Downloads/tucks_motDes</imagepath>
+        <imagedepth>8</imagedepth>
+        <imageformat>MP4</imageformat>
+      </saveinfo>
+    </renderdatainfo>
+  </fileinfo>
+  <renderinfo>
+    <imageinfo frame="0">00:00:01 /Users/j_alexander65807/Downloads/tucks_motDes/beerGlasses_Editor_a.mp4</imageinfo>
+  </renderinfo>
+  <batchinfo>
+    <added>Wednesday, March 4, 2020, 1:28:48 PM</added>
+    <started>Wednesday, March 4, 2020, 1:29:41 PM</started>
+    <rendertime>00:00:02</rendertime>
+    <result>Finished</result>
+  </batchinfo>
+</batchrender>
